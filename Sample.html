@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Practice CSS Positions
+        </title>
+        <link rel="icon" type="image/jpg" href="images/OIP.jfif">
+
+        <style>
+            .Main{
+                background-color: burlywood;
+                height: 500px;
+                width: 1350px;
+                position: relative;
+                
+            }
+
+            .item1{
+                background-color: blueviolet;
+                height: 300px;
+                width: 300px;
+                position: absolute;
+                z-index: 1;
+            }
+
+            .item2{
+                background-color: brown;
+                height: 300px;
+                width: 300px;
+                position: absolute;
+                z-index: 2;
+                top: 50px;
+                left: 250px;
+            }
+
+            .p1{
+                position: absolute;
+                z-index: 2;
+                margin: 0px;
+                top: 85px;
+                left: 115px;
+                font-size: 100px;
+                
+            }
+
+            .p2{
+                position: absolute;
+                z-index: 2;
+                margin: 0px;
+                top: 85px;
+                left: 115px;
+                font-size: 100px;
+                
+            }
+
+            .Main2{
+                background-color: yellow;
+                height: 500px;
+                width: 1350px;
+                position: relative;
+                
+            }
+
+            .item3{
+                background-color: blueviolet;
+                height: 300px;
+                width: 300px;
+                position: absolute;
+                z-index: 1;
+            }
+
+            .item4{
+                background-color: brown;
+                height: 300px;
+                width: 300px;
+                position: absolute;
+                z-index: 2;
+                top: 50px;
+                left: 250px;
+            }
+
+            .p3{
+                position: absolute;
+                z-index: 2;
+                margin: 0px;
+                top: 85px;
+                left: 115px;
+                font-size: 100px;
+                
+            }
+
+            .p4{
+                position: absolute;
+                z-index: 2;
+                margin: 0px;
+                top: 85px;
+                left: 115px;
+                font-size: 100px;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="Main">
+            <div class="item1">
+                <p class="p1">
+                    1
+                </p>
+            </div>
+
+            <div class="item2">
+                <p class="p2">
+                    2
+                </p>
+            </div>
+        </div>
+
+        <div class="Main2">
+            <div class="item3">
+                <p class="p3">
+                    3
+                </p>
+            </div>
+
+            <div class="item4">
+                <p class="p4">
+                    4
+                </p>
+            </div>
+        </div>
+
+    </body>
+</html>
